@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.1s ease-in-out;
+}
+
+.main{
+    background: linear-gradient(rgba(15, 0, 0, 0.925), rgba(14, 0, 0, 0.87)), url(img/hey1.jpeg);
+    background-position: center ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+ 
+.icon{
+    width: 200px;
+    height: 20px;
+    float: left;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: initial;
+    padding-top: 10px;
+    padding-left: 40px;
+
+}
+.menu{
+   
+    height: 40px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    align-items: center;
+}
+
+ul li {
+    margin-top: 20px;
+    margin-left: 30px;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-size: 19px;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+    color: orange;
+
+}
+
+.search{
+    width: 100px;
+    float: right;
+    margin-top: -25px;
+    margin-right: 80px;
+    display: flex;
+}
+.src{
+    font-style: italic;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 110px;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: 0px;
+}
+.btn{
+    width: 40px;
+    height: 15px;
+    background-color: rgb(238, 161, 18);
+    border:none;
+    margin-top: 3px;
+    margin-left: -10px;
+    border-radius: 10px;   
+}
+
+.search .btn a{
+    color: black;
+    font-size: 11px;
+}
+
+
+.btn:hover{
+    background-color: white;
+}
+
+.btn a:hover{
+    color: black;
+}
+
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.navbar{
+    border-bottom: 1.5px solid orange;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    height: 55px;
+    background: rgba(32, 30, 30, 0.555);
+}
+
+.content{
+    color: white;
+    width: auto;
+    height: auto;
+    position: relative;
+
+}
+.content .par{
+    padding-left: 40px;
+    letter-spacing: 1px;
+    font-style: oblique;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.6s ease-in-out;
+}
+.content h1{
+    font-family: cursive;
+    margin-top: 100px;
+    padding-left: 40px;
+    letter-spacing: 1px;
+
+}
+
+.content .cn{
+    width: 80px;
+    height: 25px;
+    background: orange;
+    border: none;
+    margin-left: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* transition: 1s ease-in-out; */
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: 0.1s ease-in-out;
+    font-style: italic;
+}
+
+.cn:hover{
+    background: white;
+
+}
+
+.content span{
+    color: orange;
+    font-size: 40px;
+}
+
+form{
+    width: 250px;
+    height: 320px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.637)50%, rgba(0, 0, 0, 0.637)50%);
+    top: 130px;
+    left: 870px;
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+form h5{
+   width: 220px;
+   font-size: 30px;
+   background: center;
+   background: white;
+   text-align: center;
+   margin-left: 15px;
+   margin-top: 9px;
+   margin-bottom: 20px;
+   border-radius:  10px;
+   color: orange;
+   font-style: italic;
+}
+
+form input{
+    width: 220px;
+    height: 30px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    background: transparent;
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid orange;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+::placeholder {
+   font-style: oblique;
+   
+
+}
+
+form button {
+    width: 220px;
+    height: 30px;
+    background-color: rgb(238, 161, 18);
+    border:none;
+    border-radius: 10px;
+    transition: 0.1s ease-in-out;  
+    margin-top: 10px; 
+}
+
+form button:hover{
+    background: white;
+    width: 120px;
+    
+}
+
+.btw{
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.btw:hover{
+    font-size: 20px;
+}
+
+form .dont{
+    color: white;
+    margin-top: 18px;
+    font-style: italic;
+
+}
+
+form .dont a{
+    color: orange;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+form .dont a:hover{
+    font-size: 20px;
+}
+
+form .het{
+    color: white;
+    margin-top: -5px;
+}
+
+.echo a{
+    width: 200;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    
+}
+
+.echo .fa{
+    padding: 2px;
+    font-size: 25px;
+    padding-top: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.echo .fa:hover{
+    color: orange;
+}
